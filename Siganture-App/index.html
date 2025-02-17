@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siganture App</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="icon" href="favicon-16x16.png" />
+    
+</head>
+<body>
+    <div class="main">
+        <div class="top">
+            <div class="black">
+                <p> Text Color Picker</p>
+                <input class="from-control" type="color" id="colorPicker" />
+            </div>
+            <div class="black">
+                <P> Backeground Color Picker </P>
+                <input class="from-control" type="color" id="canvasColor" />
+            </div>
+            <div class="black">
+                <p>Font Size Select</p>
+                <select id="fontPicker">
+                    <option value="1">1PX</option>
+                    <option value="2">2PX</option>
+                    <option value="5">5PX</option>
+                    <option value="7">7PX</option>
+                    <option value="10">10PX</option>
+                    <option value="20">20PX</option>
+                    <option value="25">25PX</option>
+                    <option value="30">30PX</option>
+                    <option value="40">40PX</option>
+                    <option value="50">50PX</option>
+                </select>
+            </div>
+        </div>
+        <canvas class="canvas" id="myCanvas" width="800" height="500"></canvas>
+        <div class="button">
+            <button type="button" class="btn-danger3" id="clearButton">Clear Button</button>
+            <button type="button" class="btn-danger1" id="saveButton">Save & Download Button</button>
+            <button type="button" class="btn-danger2" id="retrieveButton">Retrieve Button</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
